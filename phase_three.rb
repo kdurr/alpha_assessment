@@ -2,7 +2,7 @@ while true
   puts "What was team 1's name?"
   team_one = gets.chomp
 
-  puts "what was team 1's score?"
+  puts "What was team 1's score?"
   team_one_score = gets.chomp
 
   puts "What was team 2's name?"
