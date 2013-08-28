@@ -11,6 +11,7 @@ while true
   puts "What was team 2's score?"
   team_two_score = gets.chomp
 
+  puts ''
 
   def identify_winner(team_one, team_one_score, team_two, team_two_score)
     if team_one_score > team_two_score
@@ -22,6 +23,8 @@ while true
 
   puts identify_winner(team_one, team_one_score, team_two, team_two_score)
 
+  puts ''
+
   puts "Would you like to provide another game? (Y/N)"
   another_game = gets.chomp
   if another_game == "Y"
@@ -30,4 +33,5 @@ while true
     break
   end
 
+  puts ''
 end
